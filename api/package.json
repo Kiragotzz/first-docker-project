@@ -1,0 +1,23 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "api to connect to mysql",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index",
+    "test": "test"
+  },
+  "keywords": [
+    "Docker"
+  ],
+  "author": "Luis Gabriel",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.2"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.0.0"
+  }
+}
